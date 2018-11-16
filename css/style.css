@@ -1,0 +1,205 @@
+/*
+Theme Name: abu
+Version:1.0
+Author:Thai PBS
+*/
+
+
+body{
+	font-family:"PSL240pro",Tahoma,Serif;
+	background:#FFF;
+	/*font-size:24px;*/
+}
+header .topbar{
+	position: relative;
+	background:#0a466e;
+	min-height:50px;
+	z-index:1;
+	-webkit-box-shadow: -1px 8px 30px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 8px 30px -9px rgba(0,0,0,0.75);
+	box-shadow: -1px 8px 30px -9px rgba(0,0,0,0.75);
+}
+header nav .logo{
+	text-align:center;
+}
+header nav .logo .abu-logo{
+	margin-right:10px;
+}
+header nav.nav-main{
+	position:absolute;
+	opacity:0.95;
+	width:100%;
+	background:#FFF;
+	padding:30px 0px 20px 0px;
+	-webkit-box-shadow: -1px 8px 30px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 8px 30px -9px rgba(0,0,0,0.75);
+	box-shadow: -1px 8px 30px -9px rgba(0,0,0,0.75);
+}
+header nav.nav-main .topic {
+	text-align:center;
+	
+}
+
+header nav.nav-main .topic .head{
+	font-size:42px;
+	line-height:30px;
+	margin-bottom:0px;
+	word-spacing:-1px;
+}
+header nav.nav-main .topic .head sup{
+	top:-0.3em;
+}
+
+header nav.nav-main .topic .subhead span{
+	font-size:26px;
+	line-height:30px;
+	border-bottom:2px solid black;
+}
+
+header nav.nav-main .topic .detail{
+	font-size:22px;
+	line-height:30px;
+}
+/*
+header nav ul.navbar-nav{
+	margin-top:-30px;
+	text-align:right;
+}
+header nav ul.navbar-nav li a{
+	color:black;
+	font-size:28px;
+	margin-top:50px;
+}
+*/
+section#hero{
+	background-size:cover;
+	min-height:392px;
+
+}
+section#hero .heading-text{
+	color:#FFF;
+	font-weight:bold;
+	padding-top:380px;
+}
+section#hero .heading-text .title{
+	font-size:5em;
+	line-height:58px;
+	font-weight:bold;
+	font-family:"PSL240pro";
+	color:#f3f3f3;
+}
+section#hero .heading-text .subtitle{
+	font-size:2em;
+	line-height:30px;
+	letter-spacing:1px;
+	font-family:"PSL240pro";
+	color:#f3f3f3;
+}
+ul.nav-tabs{
+	background: #20567a;
+}
+ul.nav-tabs li a{
+	color:#FFF;
+	border-radius:0px;
+	padding: 8px 15px;
+
+}
+ul.nav-tabs li a:hover{
+	color:black;
+	background:#EEE;
+}
+ul.gallery-row {
+    padding: 0 0 0 0;
+    margin-top: 30px;
+}
+ul.gallery-row li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+ul.gallery-row li img,.image-front img {
+    cursor: pointer;
+	height: 147px;
+	object-fit:cover;
+	width:100%;
+}
+.modal-body {
+    padding: 5px !important;
+}
+.modal-dialog {
+          min-width:700px;
+		  max-width:700px;
+          padding-top: 90px;
+		  }
+.modal-dialog img {
+    text-align: center;
+    margin: 0 auto;
+}
+a.next{
+	float:right;
+	font-size: 20px;
+}
+a.previous{
+	font-size:20px;
+}
+article .player{
+	position: relative;
+    padding-bottom: 56.25%;
+    /* padding-top: 25px; */
+    height: 0;
+    overflow: auto;
+	overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
+}
+article .player iframe{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+article .title{
+	overflow: hidden;
+    height: 60px;
+	line-height:20px;
+}
+.noplayer{
+	padding-top:250px !important;
+	min-height:300px !important;
+}
+.carousel-indicators li{
+	background:black;
+}
+.carousel-indicators li.active{
+	background:#564f4f;
+}
+
+@media (max-width:1199px){
+	
+}
+
+@media (max-width: 992px){
+	
+}
+
+@media (max-width: 767px){
+	
+	section#hero .heading-text .title{font-size:2em;}
+	section#hero .heading-text .subtitle {
+		font-size: 1.5em;
+		line-height: 20px;
+	}
+}
+.carousel-control.right,.carousel-control.left {
+    color: black;
+}
+.carousel-control.right:hover,.carousel-control.left:hover{
+    color: #DDD;
+}
+.btn-all{font-size:22px;line-height:22px;}
+.btn-all i{font-size:16px;}
+ul.nav-pills li a{
+	font-size:22px;
+	background:#EEE;
+	margin-bottom:5px;
+	margin-right:5px;
+}
